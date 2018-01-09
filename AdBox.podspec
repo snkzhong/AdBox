@@ -17,7 +17,7 @@ Ad Package, admob unity vungle chartboost.
   s.ios.deployment_target = '8.0'
 
   # s.source_files = 'codes/**/*','Static/**/*'
-  s.source_files = 'Class'
+  s.source_files = 'Class/*.*'
   
   # s.resource_bundles = {
   #   'PodTest' => ['PodTest/Assets/*.png']
