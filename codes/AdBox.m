@@ -3,7 +3,6 @@
 #import <UMMobClick/MobClick.h>
 #import <UMOnlineConfig/UMOnlineConfig.h>
 #import <StoreKit/SKStoreProductViewController.h>
-#import "AppDelegate.h"
 
 
 @implementation AdBox

@@ -1,5 +1,4 @@
 #import "AdController.h"
-#import "AppDelegate.h"
 #import "AdBox.h"
 
 @implementation AdController

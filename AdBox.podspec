@@ -16,13 +16,19 @@ Ad Package, admob unity vungle chartboost.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'codes/**/*'
+  # s.source_files = 'codes/**/*','Static/**/*'
+  s.source_files = 'Class'
   
   # s.resource_bundles = {
   #   'PodTest' => ['PodTest/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  ss = "WebKit", "AdSupport", "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreTelephony", "EventKitUI", "EventKit", "StoreKit", "SystemConfiguration", "GLKit", "CoreMotion", "SafariServices", "MobileCoreServices", "CoreBluetooth", "MediaPlayer", "libsqlite3.tbd", "libz.tbd"
+  # s.public_header_files   = 'Static/VungleAdNetworkExtras.h'
+  # s.vendored_library = 'Static/libVungleAdapter.a'
+  # s.public_header_files = 'AdFramework/**/*.{h}'
+  # s.vendored_frameworks = 'AdFramework/Chartboost.framework','AdFramework/ChartboostAdapter.framework','AdFramework/GoogleMobileAds.framework','AdFramework/UMMobClick.framework','AdFramework/UMOnlineConfig.framework','AdFramework/UnityAdapter.framework','AdFramework/UnityAds.framework','AdFramework/VungleSDK.framework'
+  s.frameworks = "WebKit", "AdSupport", "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreMedia", "CoreTelephony", "EventKitUI", "EventKit", "StoreKit", "SystemConfiguration", "GLKit", "CoreMotion", "SafariServices", "MobileCoreServices", "CoreBluetooth", "MediaPlayer"
+  s.libraries = "sqlite3", "z"
   # s.dependency 'AFNetworking', '~> 2.3'
 end
